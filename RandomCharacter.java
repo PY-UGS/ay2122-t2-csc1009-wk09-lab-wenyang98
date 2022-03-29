@@ -64,10 +64,10 @@ public class RandomCharacter {
             randChar += rc.getRandomCharacter();
         }
 
-        System.out.println(lower);
-        System.out.println(upper);
-        System.out.println(digits);
-        System.out.println(randChar);
+        System.out.println("Random lower case letter a - z: " + lower);
+        System.out.println("Random upper case letter A - Z: " + upper);
+        System.out.println("Random digit 0 - 9: " + digits);
+        System.out.println("Random alphanumeric: " + randChar);
 
         char low = rc.getRandomLowerCaseLetter();
         char upp = rc.getRandomUpperCaseLetter();
